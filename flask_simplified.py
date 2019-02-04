@@ -93,4 +93,4 @@ def upload_files():
     return resp
 
 if __name__ == '__main__':
-    APP.run(host='0.0.0.0', port=5013)
+    APP.run(host='0.0.0.0', port=5000)
