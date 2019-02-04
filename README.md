@@ -19,5 +19,5 @@ curl localhost:5005/getJsonFromFile/labelsFile.json
 
 ### Note:
 In case of building docker in a different context, ie, if Dockerfile is kept in a different location, then context needs to be set properly. Eg. if you were building Docker image from "sourceFiles" directory , then command will become:
-##### docker build -t flask_simplified:1.3 ../ -f ../Dockerfile
+##### docker build -t flask_simplified:1.0 ../ -f ../Dockerfile
 Here ,  ../ defines the Docker context, ie, all the files under this directory will be available for docker daemon. Then -f ../Dockerfile gives the location of Dockerfile . The Dockerfile here can be given any name , but recommended is to name it as Dockerfile only . Reason being, no editor eg. vim, will provide highlights when working on Dockerfile
