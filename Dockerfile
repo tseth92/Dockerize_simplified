@@ -1,3 +1,6 @@
+LABEL Maintainer = "Tushar SEth" \
+        Email = "tusharseth93@gmail.com"
+
 FROM alpine:3.7 
 
 RUN apk --update add python3 bash curl && \
